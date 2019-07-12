@@ -141,7 +141,7 @@ header nav a {
 }
 
 .box1 {
-    background-color: teal;
+    background-color: teal !important;
 }
 
 .box2 {
@@ -259,8 +259,9 @@ footer nav a {
     border-top-style: 50% dashed 1px;
 }
 
-footer nav {
+footer nav a {
     display: flex;
+    flex-direction: flex-start;
 }
 
 .about-box img {
