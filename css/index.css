@@ -190,19 +190,21 @@ footer nav a {
 
 .about {
 	padding-bottom: 35px;
-	margin-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black;
 }
 
 .about-parent {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+    justify-content: space-between;
 }
 
 .about-box {
 	width: 48%;
-	padding: 20px;
-	margin-bottom: 40px;
+	padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
 }
 
 .about-box button {
@@ -214,9 +216,17 @@ footer nav a {
 .about-bottom-content {
     /*TRBL*/
     padding: 0px 0px 30px 25px;
-    margin-top: 40px;
+    border-top-style: 50% dashed 1px;
 }
 
 footer nav {
     display: flex;
+}
+
+.about-box img {
+    margin-bottom: 20px;
+}
+
+.about-box p {
+    margin-bottom: 20px;
 }
